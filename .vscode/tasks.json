@@ -39,7 +39,7 @@
             "command":"chrome",
             "dependsOn":"iisStart",
             "args":[
-                "https://localhost:64643/",
+                "http://localhost:64643/",
                 "--remote-debugging-port=9222"
             ]
         }
